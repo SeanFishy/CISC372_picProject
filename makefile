@@ -1,5 +1,5 @@
 
 image:image.c image.h
-	gcc -g image.c -o image -lm
+	mpicc -g image.c -o image -lm
 clean:
 	rm -f image output.png
