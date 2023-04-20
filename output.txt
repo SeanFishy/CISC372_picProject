@@ -1,0 +1,11 @@
+Script started on Wed Apr 19 23:40:50 2023
+]0;fishyud@r1n00.darwin:~/CISC372_picProject[?1034h[fishyud@r1n00 CISC372_picProject]$ srun ./image pic1.jpg edge 500
+Took 7 seconds
+]0;fishyud@r1n00.darwin:~/CISC372_picProject[fishyud@r1n00 CISC372_picProject]$ srun ./image pic1.jpg edge 500[1@o[1@p[1@e[1@n[1@M[1@P[1@_
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Took 6 seconds
+]0;fishyud@r1n00.darwin:~/CISC372_picProject[fishyud@r1n00 CISC372_picProject]$ exit
+exit
+
+Script done on Wed Apr 19 23:41:27 2023
