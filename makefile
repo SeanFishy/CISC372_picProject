@@ -1,5 +1,7 @@
 
 image:image.c image.h
-	mpicc -g image.c -o image -lm
+	gcc -g image.c -o image -lm -pthread
+openMP_image: openMP_image.c image.h
+	gcc -g -fopenmp -o openMP_image openMP_image.c -lm
 clean:
 	rm -f image output.png
